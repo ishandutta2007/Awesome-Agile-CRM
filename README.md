@@ -32,6 +32,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,67 +44,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Customer Relationship Management (CRM) market is estimated at approximately $100–$126 billion in 2025–2026 and is projected to exceed $150+ billion by the end of the decade. Structurally, the sector exhibits a dual dynamic: it is moderately concentrated at the top enterprise tier dominated by giants like Salesforce, Microsoft, and HubSpot, yet highly fragmented across mid-market and SMB segments where hundreds of agile, vertical, and open-source solutions compete actively for market share.
+
+
+
 ## SaaS/Hosted Platforms
 
-
-
-- **HubSpot CRM**
-
-  **Free CRM with Sales Hub upgrades**. **Pricing**: **Free CRM** with unlimited users; **Sales Hub Starter from $20/seat/month** (annual, promotional from $7); **Professional $90/seat/month** (annual) + **$1,500 onboarding**; **Enterprise $150/seat/month** (annual) + **$3,500 onboarding** . **Free tier**: Yes, unlimited users with core contact/deal management. **Best for**: teams wanting the strongest free CRM with a clear paid upgrade path—**trade-off**: Professional requires onboarding fee; advanced governance requires Enterprise .
-
-
-
-- **Pipedrive**
-
-  **Pipeline-first sales CRM**. **Pricing**: Quote-only via sales; **add-ons increase total cost by 20–40%** (chatbot $32.50–$39/company/month, web visitor tracking $41–$49/company/month); premium onboarding adds **$2,000–$10,000+**; renewal increases **3–10% annually** . **Free tier**: Trial available. **Best for**: SMB sales teams wanting a visual pipeline without CRM bloat—**trade-off**: add-ons stack quickly; negotiate expansion pricing upfront .
-
-
-
-- **Copper**
-
-  **Google Workspace-native CRM**. **Pricing**: **Basic $23/seat/month** (annual) or $29 monthly, 2,500 contacts; **Professional $59/seat/month** (annual) or $69 monthly, 15,000 contacts; **Business $99/seat/month** (annual) or $134 monthly, unlimited contacts . **Free tier**: No free plan; trial available. **Best for**: teams living in Gmail/Google Calendar wanting automatic relationship capture—**trade-off**: no free tier; contact limits force tier upgrades .
-
-
-
-- **Salesforce Sales Cloud**
-
-  **Enterprise CRM standard**. **Pricing**: **Starter Suite $25/user/month**; **Pro Suite $100**; **Core $195**; **Advanced $395**; **Max $550** per user/month (annual) . Agentforce for Sales included in Max or **$125/user/month add-on** . **Free tier**: Free Suite limited. **Best for**: enterprises needing deep customization and AppExchange ecosystem—**trade-off**: costs climb steeply above Pro Suite; annual billing required from Pro upward .
-
-
-
-- **Freshsales**
-
-  **AI sales CRM at SMB pricing**. **Pricing**: **From $9/user/month** (annual) . **Free tier**: Trial available. **Best for**: SMBs wanting AI capabilities at a fraction of Salesforce or HubSpot Professional costs—**trade-off**: less workflow depth than enterprise platforms .
-
-
-
-- **Insightly**
-
-  **CRM with project management**. **Pricing**: **Plus $29/user/month** (annual); **Professional $49** (adds AI Copilot, workflow automation); **Enterprise $99** (adds sandboxes, products/pricebooks, audit logging) . **Free tier**: No credit card required for trial. **Best for**: teams wanting CRM plus project delivery tracking—**trade-off**: AI Copilot requires Professional or higher .
-
-
-
-- **Capsule CRM**
-
-  **Simple, people-centric CRM**. **Pricing**: **Free Forever** (2 users, 250 contacts, 5 custom fields, 1 pipeline); **Starter** paid tier (30,000 contacts, email templates, AI pipeline generator); **Growth** and **Advanced** add workflow automation and AI enrichment . **Free tier**: Yes, 2 users/250 contacts. **Best for**: small teams wanting a genuinely free CRM with room to grow—**trade-off**: free tier is limited; paid tiers required for automation .
-
-
-
-- **Close**
-
-  **Sales CRM with built-in calling/SMS**. **Pricing**: **Solo $9/user/month** (annual, 1 user, 500 AI credits); **Essentials $35** (unlimited contacts, 1,000 credits); **Growth $99** (workflows, power dialer, 1,500 credits); **Scale $139** (predictive dialer, live coaching, 2,000 credits) . Calling/SMS pass-through at ~$0.02/minute . **Free tier**: 14-day trial with calling credits. **Best for**: outbound teams wanting CRM + telephony in one platform—**trade-off**: AI credits refresh monthly, no rollover; telephony costs are separate .
-
-
-
-- **Monday Sales CRM**
-
-  **Work OS-based CRM**. **Pricing**: **Basic $12/seat/month** (annual, 3-seat minimum); **Standard $17**; **Pro $28**; **Ultimate** quote-only . **Free tier**: No free plan; 14-day trial. **Best for**: teams already on Monday.com wanting CRM within their work OS—**trade-off**: 3-seat minimum; email sync and sequences require Standard/Pro .
-
-
-
-- **Zoho CRM**
-
-  **Full-featured CRM with Zia AI**. **Pricing**: **Free** (3 users); **Standard $14/user/month** (annual); **Professional $23** (Zia AI, Ask Zia); **Enterprise $40** (churn prediction); **Ultimate $52** . **Free tier**: Yes, 3 users. **Best for**: teams wanting transparent pricing with AI from Professional tier—**trade-off**: Zia AI features start at Professional ($23); Standard has no AI .
+| Product | Company Scale (Revenue / Valuation) | Pricing (Starting Paid Tier) | Free Tier / Trial Limits | Key Features & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **Salesforce Sales Cloud** | ~$41.5B Revenue (~$190B Market Cap) | Starter Suite from $25/user/month (annual); Pro Suite $100/user/month; Core $195/user/month | Permanent Free CRM tier up to 2 users (basic contact/lead tracking); or 30-day full-access free trial | Enterprise CRM standard with Agentforce AI, custom workflows, and deep AppExchange integrations. Best for large enterprises requiring custom governance. |
+| **HubSpot CRM** | ~$3.13B+ Revenue (~$14B Market Cap) | Sales Hub Starter from $20/seat/month (annual, promotional from $7); Professional $90/seat/month (+$1,500 onboarding) | Permanent free plan with unlimited users (core deal/contact pipelines, ticketing, up to 1M contacts) | Inbound marketing and visual pipeline ecosystem. Best for fast-scaling teams wanting a comprehensive free starting platform. |
+| **Zoho CRM** | ~$1.45B–$1.5B Revenue (Bootstrapped / Profitable) | Standard from $14/user/month (annual) or $20 monthly; Professional $23/user/month; Enterprise $40/user/month | Permanent free plan up to 3 users (5,000 records, standard reports, email templates); or 15-day free trial on paid plans | Comprehensive suite with Zia AI, custom modules, and workflow rules. Best for cost-conscious SMBs needing rich functionality. |
+| **Monday Sales CRM** | ~$1.23B–$1.37B Revenue (~$3.8B Market Cap) | Basic CRM from $12/seat/month (annual, 3-seat minimum = $36/month); Standard $17/seat/month; Pro $28/seat/month | No permanent free plan; 14-day free trial (unlimited boards, no credit card required) | Work OS-driven CRM with visual boards, deal management, and cross-team workflows. Best for teams already using Monday.com. |
+| **Pipedrive** | ~$1.5B Valuation (Acquired by Vista Equity Partners) | Lite plan from $14/user/month (annual) or $24 monthly; Growth $39/user/month | No permanent free plan; 14-day free trial with full feature access (no credit card required) | Pipeline-first visual CRM focused on activity-based selling and deal velocity. Best for SMB sales teams wanting clean deal tracking. |
+| **Freshsales** | ~$750M–$1B ARR (~$3.5B Market Cap, Freshworks) | Growth plan from $9/user/month (annual) or $11 monthly; Pro $39/user/month | Permanent free plan up to 3 users (1 deal pipeline, contact lifecycle stages, built-in chat/email); or 21-day free trial of paid tiers | Freddy AI-powered contact scoring, predictive insights, and built-in telephony. Best for SMBs wanting modern AI capabilities. |
+| **Copper** | ~$102M Total Funding Raised (Privately held) | Basic from $23/seat/month (annual) or $29 monthly (capped at 2,500 contacts); Professional $59/seat/month | No permanent free plan; 14-day free trial with full Google Workspace integration (no credit card required) | Google Workspace-native CRM embedding directly into Gmail and Google Calendar. Best for teams anchored in Google Workspace. |
+| **Insightly** | ~$15M–$37M Est. Annual Revenue (Privately held) | Plus from $29/user/month (annual); Professional $49/user/month; Enterprise $99/user/month | No permanent free plan; 14-day free trial of Plus/Professional tiers (no credit card required) | Combined CRM and project post-sale delivery tracking with workflow automation. Best for professional services and project-driven sales teams. |
+| **Close** | ~$13M–$27M Est. Annual Revenue (Bootstrapped/Private) | Solo from $9/user/month (annual, 1 user, 500 AI credits); Essentials $35/user/month (unlimited contacts); Growth $99/user/month | No permanent free plan; 14-day free trial including test calling and SMS credits (no credit card required) | Inside-sales CRM with built-in multi-channel calling, SMS sequences, and power dialers. Best for high-velocity outbound teams. |
+| **Capsule CRM** | ~$7M Est. Annual Revenue (Bootstrapped/Private) | Starter from $18/user/month (annual, up to 30,000 contacts); Growth $36/user/month | Permanent free plan up to 2 users, 250 contacts, and 1 sales pipeline; or 14-day free trial of paid plans | Minimalist, relation-focused CRM with contact history and lightweight pipeline automation. Best for micro-businesses and solo entrepreneurs. |
 
 
 
