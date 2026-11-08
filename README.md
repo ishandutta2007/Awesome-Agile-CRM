@@ -70,11 +70,11 @@ The global Customer Relationship Management (CRM) market is estimated at approxi
 
 The open-source CRM ecosystem has matured significantly. Modern developer-friendly alternatives now deliver real-time GraphQL APIs, extensible custom objects, MCP servers for autonomous AI agents, and modular relational architectures.
 
-Repositories below are sorted in **descending order by GitHub star count**.
+Repositories below are sorted in **descending order by GitHub Stars_Count**.
 
 ### 🌟 Open-Source Repository Ranking
 
-| 📦 Repository | ⭐ GitHub Stars Badge | 📜 License | 🛠️ Tech Stack | 🎯 Focus & Strengths |
+| 📦 Repository | ⭐ GitHub_Stars_Badge | 📜 License | 🛠️ Tech Stack | 🎯 Focus & Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **Twenty** (`twentyhq/twenty`) | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | TypeScript, React, Node.js, PostgreSQL | Modern open-source CRM alternative to Salesforce. GraphQL API-first, custom objects/fields, Kanban pipelines, and Docker deployment. |
 | **ERPNext** (`frappe/erpnext`) | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | GPL-3.0 | Python, JavaScript, MariaDB | Full enterprise ERP suite with comprehensive built-in CRM module for lead capture, quotation lifecycles, and sales stages. |
