@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+    <!-- Text Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#e0e7ff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .bg-orb {
+        animation: floatOrb 12s ease-in-out infinite alternate;
+      }
+      .bg-orb2 {
+        animation: floatOrb2 16s ease-in-out infinite alternate;
+      }
+      .pulse-pill {
+        animation: pulsePill 4s ease-in-out infinite alternate;
+      }
+      .pipeline-node {
+        animation: nodePulse 3s ease-in-out infinite alternate;
+      }
+      .flow-line {
+        stroke-dasharray: 8 6;
+        animation: dashFlow 25s linear infinite;
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 200; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes floatOrb {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(40px, 30px) scale(1.15); }
+      }
+      @keyframes floatOrb2 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(-30px, -20px) scale(1.1); }
+      }
+      @keyframes pulsePill {
+        0% { opacity: 0.8; transform: translateY(0px); }
+        100% { opacity: 1; transform: translateY(-4px); }
+      }
+      @keyframes nodePulse {
+        0% { r: 5; opacity: 0.6; }
+        100% { r: 8; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+
+  <!-- Animated Background Ambient Glows -->
+  <g class="bg-orb">
+    <circle cx="200" cy="80" r="220" fill="url(#glowGrad1)" />
+  </g>
+  <g class="bg-orb2">
+    <circle cx="1020" cy="300" r="260" fill="url(#glowGrad2)" />
+  </g>
+
+  <!-- Geometric Grid Layer -->
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Ambient Agile Pipeline Visual Elements (Background Flow) -->
+  <g opacity="0.35">
+    <path class="flow-line" d="M 80 340 C 300 340, 450 370, 600 330 C 750 290, 900 350, 1120 330" fill="none" stroke="#60a5fa" stroke-width="2" />
+    <circle class="pipeline-node" cx="200" cy="340" fill="#38bdf8" />
+    <circle class="pipeline-node" cx="600" cy="330" fill="#818cf8" />
+    <circle class="pipeline-node" cx="950" cy="340" fill="#34d399" />
+  </g>
+
+  <!-- Foreground Content: Pill Badge -->
+  <g class="pulse-pill" transform="translate(480, 50)">
+    <rect width="240" height="34" rx="17" fill="url(#badgeGrad)" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="20" cy="17" r="4.5" fill="#10b981" />
+    <text x="35" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#93c5fd" letter-spacing="1.2">CURATED AWESOME LIST</text>
+  </g>
+
+  <!-- Main Title & Subtitle in Foreground (Crystal Clear & Crisp) -->
+  <g id="foreground-text">
+    <text x="600" y="150" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">
+      Awesome Agile CRM
+    </text>
+    <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+      Modern Sales Pipelines, Contact Management &amp; Self-Hosted Open-Source Platforms
+    </text>
+  </g>
+
+  <!-- Dynamic Feature Pills (Foreground Highlights) -->
+  <g transform="translate(0, 240)">
+    <!-- Pill 1 -->
+    <g transform="translate(190, 0)">
+      <rect width="180" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <text x="90" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">
+        ⚡ Visual Pipelines
+      </text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(390, 0)">
+      <rect width="200" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <text x="100" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">
+        🌐 Open-Source &amp; Cloud
+      </text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(610, 0)">
+      <rect width="190" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <text x="95" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">
+        🤖 AI &amp; MCP Integration
+      </text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(820, 0)">
+      <rect width="190" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <text x="95" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">
+        🔒 Self-Hosted Privacy
+      </text>
+    </g>
+  </g>
+</svg>
